@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:  
-  sample-matillion:
+  sample1:
     runs-on: ubuntu-latest
 
    
