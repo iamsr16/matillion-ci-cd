@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with matillion ci/cd
+
+name: Run tests
+on:  
+    # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+  pull_request:
+    branches:
+      - master
+
+jobs:  
+  sample-matillion:
+    runs-on: ubuntu-latest
+
+   
