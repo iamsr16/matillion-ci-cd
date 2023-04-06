@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:  
-  sample1:
+  job1:
     runs-on: ubuntu-latest
 
    
